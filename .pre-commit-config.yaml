@@ -8,13 +8,20 @@ repos:
     -   id: check-merge-conflict
 -   repo: local
     hooks:
-    -   id: pylint
-        name: pylint
-        entry: pylint
-        language: python
-        types: [python]
     -   id: autopep8
-        name: autopep8
+        name: Run Formatter
         entry: autopep8
         language: python
         types: [python]
+        args: [-i]
+    -   id: pylint
+        name: Run Linter
+        entry: pylint
+        language: python
+        types: [python]
+        args:
+          [
+            "-rn",
+            "-sn",
+            "--rcfile=.pylintrc",
+          ]

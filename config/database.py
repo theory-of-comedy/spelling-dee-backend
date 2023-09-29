@@ -1,7 +1,8 @@
 import certifi
 from pymongo import MongoClient
+from config.config import get_settings
 
-mongo_uri = "mongodb+srv://Bourbxn:Boss2546@spelling-dee.v2ekfip.mongodb.net/?retryWrites=true&w=majority"
+mongo_uri = get_settings().mongo_uri
 
 client = MongoClient(mongo_uri, tlsCAFile=certifi.where())
 
