@@ -1,13 +1,18 @@
 repos:
-  - repo: local
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
     hooks:
-      - id: pylint
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+-   repo: local
+    hooks:
+    -   id: pylint
         name: pylint
         entry: pylint
-        language: system
+        language: python
         types: [python]
-        args:
-          [
-            "-rn", # Only display messages
-            "-sn", # Don't display the score
-          ]
+    -   id: autopep8
+        name: autopep8
+        entry: autopep8
+        language: python
+        types: [python]
