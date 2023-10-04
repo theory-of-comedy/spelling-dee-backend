@@ -1,10 +1,8 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter
 from models.wordlists import Wordlist
 from config.database import collection_name
-from config.config import Settings, get_settings
 from schema.schemas import list_serial
 from bson import ObjectId
-from typing import Annotated
 
 router = APIRouter()
 
@@ -31,10 +29,3 @@ async def put_wordlist(id: str, wordlist: Wordlist):
 @router.delete("/{id}")
 async def delete_wordlist(id: str):
     collection_name.find_one_and_delete({"_id": ObjectId(id)})
-
-
-@router.get('/info')
-async def info(settings: Annotated[Settings, Depends(get_settings)]):
-    return {
-        "mongo_uri": settings.mongo_uri
-    }
