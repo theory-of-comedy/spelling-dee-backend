@@ -6,13 +6,11 @@ services:
       dockerfile: Dockerfile
     container_name: fastapi-application
     environment:
-      - PORT
       - MONGO_URI
     ports:
-      - '${PORT}:8000'
+      - '8000:8000'
     networks:
-      - networks-frontend
-      - networks-backend
+      - spelling-dee
     restart: always
 
 networks:
