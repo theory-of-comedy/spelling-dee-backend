@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fastapi-application
+    environment:
+      - PORT
+      - MONGO_URI
+    ports:
+      - '${PORT}:8000'
+    networks:
+      - networks-frontend
+      - networks-backend
+    restart: always
+
+networks:
+  spelling-dee:
+    driver: bridge
