@@ -7,7 +7,7 @@ wordlist = [
     {
         "word": "kingkong",
         "images": ["https://cdn.discordapp.com/attachments/1153342096460222465/1164432107238592592/IMG_4982.jpg?ex=654330e8&is=6530bbe8&hm=131ea2d01b815aa601bbdbb1f7930e3ac2f22334324415663f526ca36d813de0&",
-                   "https://cdn.discordapp.com/attachments/1153342096460222465/1164432107238592592/IMG_4982.jpg?ex=654330e8&is=6530bbe8&hm=131ea2d01b815aa601bbdbb1f7930e3ac2f22334324415663f526ca36d813de0&"]
+                   "https://cdn.discordapp.com/attachments/1153342096460222465/1164432107465080902/IMG_4983.jpg?ex=654330e8&is=6530bbe8&hm=a8d0e2547900f9aa065a5fc0e47f190a84585993b2aa62953f8ea5e606dac0cb&"]
     },
     {
         "word": "money",
@@ -49,7 +49,7 @@ wordlist = [
     {
         "word": "Challenge",
         "images": ["https://cdn.discordapp.com/attachments/1153342096460222465/1164434407696891984/IMG_1268.png?ex=6543330c&is=6530be0c&hm=e9ea3a23fb0fe278d926da2a5381b6f9cb16aa22247ad81fad8ee996f1cabfbe&",
-                   "https://cdn.discordapp.com/attachments/1153342096460222465/1164434407965347841/IMG_1267.png?ex=6543330d&is=6530be0d&hm=36221a34608ac17e604cef4a0345472af0bdc8789c99e7ddd56df7712f613c77&"]
+                   "https://cdn.discordapp.com/attachments/1153342096460222465/1164566348475674714/lenght.png?ex=6543adee&is=653138ee&hm=caab1296eafe4b8ad18d30db9ea28fe73609096e7f5a65725c906c162b422481&"]
     },
     {
         "word": "Remember",

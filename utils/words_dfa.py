@@ -149,7 +149,6 @@ transitions = {
 
 # Define a function to check if the input string is accepted
 def isAccepted(input_string):
-    # ar
     state = 0  # Initial state
     for char in input_string:
         try:
