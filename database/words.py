@@ -33,7 +33,7 @@ wordlist = [
     {
         "word": "Investment",
         "images": ["https://cdn.discordapp.com/attachments/1153342096460222465/1164470794106183700/image.png?ex=654354f0&is=6530dff0&hm=cbf0b9a0e922a6b8cc520b285f2b359063b93aeb966176b571e7a8e8d6da94cd&",
-                   "https://cdn.discordapp.com/attachments/1153342096460222465/1164470794462695495/1200px-Compass_Rose_English_West.png?ex=654354f0&is=6530dff0&hm=3a411c8a3c1de6465aad8e124330895d46c344892251da4972553f854bf034b8&",
+                   "https://cdn.discordapp.com/attachments/1153342096460222465/1164573748020650014/senior-woman.jpg?ex=6543b4d2&is=65313fd2&hm=00ddf6759fff0faca0cf7c246b3dbe77316dd3a6a9f4d196649f053752745c65&",
                    "https://cdn.discordapp.com/attachments/1153342096460222465/1164470794815021126/e0b980e0b8a1e0b988e0b899e0b981e0b884e0b8a3e0b8b0.png?ex=654354f0&is=6530dff0&hm=1f283218b6e6d8b4021b3bf51756edc9da88655a44142848ae8a5d6bc4c312c2&"]
     },
     {
